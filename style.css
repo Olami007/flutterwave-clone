@@ -1,0 +1,256 @@
+@import url(./fontawesome-free-6.2.0-web/css/all.css);
+
+*{
+    /* padding: o; */
+    /* margin: 0; */
+    /* box-sizing: border-box; */
+    text-decoration: none;
+    list-style: none;
+    /* width: 100vw; */
+    /* overflow-x: hidden; */
+}
+body{
+    /* width: 100vw !important; */
+    background-color: #FFFFFF !important;
+    color: #2A3362 !important;
+    font-family: 'Encode Sans Semi Condensed', sans-serif !important;
+    overflow-x: hidden;
+}
+header{
+    width: 100% !important;
+    display: flex !important;
+    justify-content: space-between !important;
+}
+.nav-link:hover{
+    color: rgb(6, 136, 223) !important;    
+}
+#signin{
+    padding: 10px 40px;
+    background-color: rgb(197, 196, 195);
+    border-radius: 10px;
+}
+#signin:hover{
+    background-color: #2A3362;
+    color: #FFFFFF !important;
+}
+nav img{
+    padding-right: 10px;
+    height: 50px;
+    width: 80px;
+}
+a{
+    color: #2A3362 !important;
+}
+.dropdown-menu{
+    border: 1px solid white !important;
+    box-shadow: 5px 10px 18px #888888 !important;
+}
+.dropdown-item{
+    padding: 20px 40px !important;
+    
+}
+/* sectio{
+    border-top: 350px !important;
+} */
+.first-level{
+    display: flex !important;
+    position: relative !important;
+    font-family: 'DM Serif Display', serif;
+}
+.first-level a{
+    text-decoration: none !important;
+}
+.first-level .text{
+    line-height: 5px !important;
+    width: 50%;
+}
+.first-level pic{
+    width: 50%;
+}
+.get-started{
+    padding: 20px 40px;
+    background-color: #2A3362;
+    border-radius: 10px;
+    color: #FFFFFF !important;
+    margin: 10px !important;
+}
+.contact-sales{
+    padding: 20px 40px;
+    background-color: rgb(197, 196, 195);
+    border-radius: 10px;
+    margin: 10px !important;
+}
+.balances{
+    /* position: absolute; */
+    /* right: -400px !important; */
+    width: 400px;
+    height: 700px;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+.how-to-pay{
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px grey;
+    /* position: absolute; */
+    right: 300px;
+    /* top: 300px; */
+}
+.go-payments{
+    background-color: rgb(244, 247, 250);
+}
+.cpo{
+    width: 70% !important;
+}
+
+.recurring-level img{
+    width: 300px;
+}
+
+.unified-payment img{
+    width: 300px;
+}
+
+.collect-pay img{
+    width: 300px;
+    height: 500px;
+    margin-top: 500px;
+}
+.collect-pay{
+    background-color: black;
+    padding: 40px;
+}
+
+.built{
+    padding: 100px;
+    background-color: rgb(244, 247, 250);
+}
+.built li{
+    padding-top: 20px;
+}
+
+.foot-city{
+    height: 900px;
+    width: 700px;
+    padding-right: 100px;
+}
+
+.famasi{
+    height: 900px;
+    width: 600px;
+    padding-top: 100px;
+}
+
+.store{
+    padding-top: 300px;
+}
+
+.hover-cards{
+    display: flex !important;
+}
+
+.hover-cards div{
+    /* border: 1px solid black; */
+    border-radius: 50px !important;
+    /* margin-right: 5px !important; */
+}
+
+
+
+@media only screen and (max-width: 1240px) {
+    .foot-city{
+        height: 850px;
+        width: 560px;
+    }
+    .famasi{
+        height: 800px;
+        width: 450px;
+        padding-top: 100px !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    
+    .get-started{
+        margin: 50px !important;
+    }
+    .contact-sales{
+        margin: 20px !important;
+    }
+    .foot-city{
+        height: 500px;
+        width: 450px;
+    }
+    .famasi{
+        height: 500px;
+        width: 350px;
+    }
+    .creator-toon{
+        height: 500px !important;
+        width: 360px !important;
+    }
+    .best-way{
+        width: 95% !important;
+    }
+    .gs{
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .first-level{
+        flex-wrap: wrap;
+    }
+    .recurring-level img{
+        display: none;
+    }
+    .store{
+        padding-top: 10px;
+    }
+    .lets-play{
+        font-size: 60px !important;
+    }
+    .display-1{
+        font-size: 55px !important;
+    }
+    .display-2{
+        font-size: 45px !important;
+    }
+    .display-3{
+        font-size: 38px !important;
+    }
+    .collect-pay img{
+        margin-top: 100px;
+        /* width: 400px; */
+    }
+    .built h3{
+        width: 100% !important;
+        line-height: 45px;
+    }
+    .zz{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .cs{
+        padding: 20px;
+    }
+    .atm-cards img{
+        width: 200px !important;
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .balances{
+        width: 270px !important;
+    }
+    .built{
+        padding-left: 20px !important;
+        
+    }
+    .built h3{
+        width: 100% !important;
+        line-height: 45px;
+    }
+}
