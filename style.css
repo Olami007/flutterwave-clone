@@ -167,6 +167,9 @@ a{
         width: 450px;
         padding-top: 100px !important;
     }
+    .creator-toon{
+        width: 500px;
+    }
 }
 
 @media only screen and (max-width: 991px) {
@@ -179,7 +182,7 @@ a{
     }
     .foot-city{
         height: 500px;
-        width: 450px;
+        width: 400px;
     }
     .famasi{
         height: 500px;
@@ -239,6 +242,11 @@ a{
         width: 200px !important;
         display: none !important;
     }
+    .foot-city{
+        height: 500px;
+        width: 350px;
+        padding-right: 0;
+    }
 }
 
 @media only screen and (max-width: 400px) {
@@ -254,3 +262,14 @@ a{
         line-height: 45px;
     }
 }
+/* @media only screen and (max-width: 390px) {
+    .foot-city{
+        height: 500px;
+        width: 300px;
+    }
+    .famasi{
+        height: 500px;
+        width: 300px;
+        padding-top: 100px !important;
+    }
+} */
